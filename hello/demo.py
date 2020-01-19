@@ -22,9 +22,6 @@ def fibieSerial(size):
     fibiSerial = []
     for elem in range(size):
         fibiSerial.append(fibielemReq(elem))
-
-
-
     return fibiSerial
 
 

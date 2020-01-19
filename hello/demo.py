@@ -22,9 +22,8 @@ def fibieSerial(size):
     fibiSerial = []
     for elem in range(size):
         fibiSerial.append(fibielemReq(elem))
-        print (elem)
     return fibiSerial
 
 
 if __name__ == "__main__":
-    print(fibieSerial(10))
+    assert ((fibieSerial(10)) == [0 ,1, 1,2,3,5,8,13,21,34]),"{}".format((fibieSerial(10)))

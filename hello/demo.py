@@ -49,6 +49,8 @@ if __name__ == "__main__":
     timeRecor = time.time() - start
 
 
+
+  
     start = time.time()
     fibieSerialNotRecor(35)
     timeNotRecor = time.time() - start
